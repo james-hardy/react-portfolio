@@ -108,6 +108,7 @@ const cards = [
 ];
 
 
+
 export default function Album() {
   const classes = useStyles();
 
@@ -117,7 +118,20 @@ export default function Album() {
       <main>
         {/* Hero unit */}
         <div className={classes.heroContent}>
+        
+          
           <Container maxWidth="sm">
+
+          <Typography
+              component="h4"
+              variant="h5"
+              align="left"
+              color="textSecondary"
+              gutterBottom
+            >
+              Hello, My name is
+            </Typography>
+       
             <Typography
               component="h1"
               variant="h2"
@@ -129,13 +143,11 @@ export default function Album() {
             </Typography>
             <Typography
               variant="h5"
-              align="center"
+              align="right"
               color="textSecondary"
               paragraph
             >
-              Thank you for joining me on my full stack development journey.
-              Below are some of the projects I have been a part of. Enjoy, and
-              thank you for looking!
+              I am a Full Web Stack Developer!
             </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
