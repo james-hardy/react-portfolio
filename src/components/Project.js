@@ -168,46 +168,42 @@ export default function Album() {
         <Container className={classes.cardGrid} maxWidth="md">
           {/* End hero unit */}
           <Grid container spacing={4}>
-            {/* use forEach instead of map */}
-            {/* {cards.forEach((card) => ( */}
-            {/* for (let i = 0; i < cards.length; i++) {
-              const card = cards[i]; */}
+            
+            {cards.map((card) => (
+            
               
             
             <Grid item key={""} xs={12} sm={6} md={4}>
               <Card className={classes.card}>
                 <CardMedia
                   className={classes.cardMedia}
-                  image={cards[0].image}
-                  title={cards[0].title}
+                  image={card.image}
+                  title={card.title}
                 />
                 <CardContent className={classes.cardContent}>
                   <Typography gutterBottom variant="h5" component="h2">
-                    App title: {cards[0].title}.
+                    App title: {card.title}.
                   </Typography>
-                  <Typography>App Description: {cards[0].description}</Typography>
+                  <Typography>App Description: {card.description}</Typography>
                 </CardContent>
                 <CardActions>
                   <Button variant="contained" color="primary"
                     size="small"
-                    gitHubRepo={cards[0].gitHubRepo}
+                    gitHubRepo={card.gitHubRepo}
                   >
                     View Repo
                   </Button>
                   <Button variant="outlined"
                     size="small"
                     color="primary"
-                    liveLink={cards[0].liveLink}
+                    liveLink={card.liveLink}
                   >
                     Go to App
                   </Button>
                 </CardActions>
               </Card>
             </Grid>
-            {/* for the failed for loop */}
-            {/* }, */}
-            {/* for the failed forEach */}
-            {/* ))} */}
+            ))}
           </Grid>
         </Container>
       </main>
