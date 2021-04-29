@@ -70,7 +70,7 @@ const cards = [
 
   {
     key: 3,
-    image: "assets/Looking4Balance.png",
+    image: "assets/looking4balance.png",
     title: "Looking 4 Balance",
     description:
       "Balance! With such a busy life, we all need balance to assure we never forget the important things in life. That is why this app allows you to select the 3 most important things you need to accomplish TODAY! 3 things to do with your family, work, and school. Start the day with an inspiring quote, and come back to your site when you need a laugh.",
@@ -80,7 +80,7 @@ const cards = [
 
   {
     key: 4,
-    image: "assets/Scheduler-screen-shot.png",
+    image: "assets/scheduler-screen-shot.png",
     title: "Work day scheduler",
     description: 
       "Stay organized by planning your day hour by hour and see at a glance where you are in the day",
@@ -100,7 +100,7 @@ const cards = [
 
   {
     key: 6,
-    image: "assets/WeatherApp.png",
+    image: "assets/weatherapp.png",
     title: "Weather App",
     description: "Do have a trip planned? Wouldn't it be great to keep all of the places you will visit in one place, to quickly see and plan according to the weather? This is your app! See the weather for your selected cities, along with a 5 day forcast, and even a quick view of the current weather with a matching gif at the top of the page",
     gitHubRepo: "https://github.com/HectorDiazJr/Weather-App",
